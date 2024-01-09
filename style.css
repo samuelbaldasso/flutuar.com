@@ -1,92 +1,84 @@
-.hero {
+main {
   display: flex;
   flex-direction: column;
-  margin: 34px auto 64px;
-  justify-content: center;
   align-items: center;
   text-align: center;
+  margin: 64px auto 32px;
+  font-family: "Open Sans", sans-serif;
+  max-width: 626px;
+  color: #3f3d56;
 }
 
-footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main h1 {
+  font-family: "Dosis", sans-serif;
   text-align: center;
-  gap: 16px;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+main h1 span {
+  color: #ee24ff;
+  font-family: Dosis;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+main p strong.grey,
+p {
+  color: #828282;
+}
+
+p strong {
+  color: #3f3d56;
+}
+
+.lastText,
+.texts {
+  margin-top: 32px;
+}
+
+.line {
+  background-color: #eceff2;
+  height: 1px;
+  width: 391px;
 }
 
 .links {
   display: flex;
   gap: 42px;
-  margin-bottom: 40px;
+  margin: 16px 0 40px;
 }
 
-footer a{
-  text-decoration: none;
-  color: #000;
-  font-weight: 700;
-}
-
-body {
-  font-family: "Open Sans", sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-h2 {
-  font-family: "Dosis", sans-serif;
-  font-size: 32px;
-  font-weight: 400;
-}
-
-h2 span {
-  color: #ee24ff;
-  font-weight: 700;
-}
-
-.texts {
-  max-width: 540px;
-}
-
-.texts p {
-  color: #828282;
-  text-align: center;
-  font-family: Open Sans;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 22px;
-}
-
-.texts p strong {
+.links a {
   color: #3f3d56;
-  font-family: Open Sans;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 22px;
-}
-
-.texts .grey {
-  color: #828282;
   text-align: center;
   font-family: Open Sans;
   font-size: 15px;
   font-style: normal;
   font-weight: 700;
-  line-height: 22px;
+  gap: 42px;
+  line-height: 147.682%;
+  text-decoration: none;
 }
 
-.line {
-  width: 391px;
-  height: 0;
-  margin: 0 8px;
-  border: 1px solid #eceff2;
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.wave {
-  width: 100%;
+.wave{
   position: fixed;
   bottom: 0;
 }
